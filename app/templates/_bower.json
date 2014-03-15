@@ -2,7 +2,7 @@
     "name": "package",
     "version": "0.0.0",
     "dependencies": {
-        "shower": "*",
-        "<%= theme %>": "*"
+        "shower": "*"<% if (theme !== 'none'){ %>,
+        "<%= theme %>": "*"<% } %>
     }
 }
