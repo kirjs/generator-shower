@@ -29,18 +29,31 @@ To install generator-shower from npm, run:
 $ npm install -g generator-shower
 ```
 
-Finally, initiate the generator:
+### Generating Shower presentation
 
 ```
 $ yo shower
 ```
 
-### Getting To Know Yeoman
+### Adding slides to your Shower presentation
+```
+# Empty slide
+$ yo shower:slide
 
-Yeoman has a heart of gold. He's a person with feelings and opinions, but he's very easy to work with. If you think he's too opinionated, he can be easily convinced.
+# Empty list slide
+$ yo shower:list
 
-If you'd like to get to know Yeoman better and meet some of his friends, [Grunt](http://gruntjs.com) and [Bower](http://bower.io), check out the complete [Getting Started Guide](https://github.com/yeoman/yeoman/wiki/Getting-Started).
+# Empty table slide
+$ yo shower:table
 
+# Empty shout slide
+$ yo shower:shout
+
+# Empty quote slide
+$ yo shower:quote 
+
+
+```
 
 ## License
 
