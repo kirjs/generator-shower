@@ -1,7 +1,6 @@
-# generator-shower [![Build Status](https://secure.travis-ci.org/kcherkashin/generator-shower.png?branch=master)](https://travis-ci.org/kcherkashin/generator-shower)
+# generator-shower
 
 > [Yeoman](http://yeoman.io) generator
-
 
 ## Getting Started
 
@@ -37,22 +36,23 @@ $ yo shower
 
 ### Adding slides to your Shower presentation
 ```
-# Empty slide
+# Generate empty slide
 $ yo shower:slide
 
-# Empty list slide
+# Generate empty list slide
 $ yo shower:list
 
-# Empty table slide
+# Generate empty table slide
 $ yo shower:table
 
-# Empty shout slide
+# Generate empty shout slide
 $ yo shower:shout
 
-# Empty quote slide
-$ yo shower:quote 
+# Generate empty quote slide
+$ yo shower:quote
 
-
+# Generate empty code slide
+$ yo shower:code
 ```
 
 ## License
