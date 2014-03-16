@@ -1,4 +1,4 @@
-# generator-shower
+# generator-shower [![Build Status](https://secure.travis-ci.org/kcherkashin/generator-shower.png?branch=master)](https://travis-ci.org/kcherkashin/generator-shower)
 
 > [Yeoman](http://yeoman.io) generator
 
