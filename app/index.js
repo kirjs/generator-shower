@@ -43,9 +43,15 @@ var ShowerGenerator = yeoman.generators.Base.extend({
             },
             {
                 type: 'confirm',
+                name: 'license',
+                message: 'Include a copy of MIT licence?',
+                default: true
+            },
+            {
+                type: 'confirm',
                 name: 'showProgressBar',
                 message: 'Show progress bar?',
-                default: ''
+                default: true
             }
         ];
 
@@ -53,6 +59,7 @@ var ShowerGenerator = yeoman.generators.Base.extend({
             this.author = props.author;
             this.theme = props.theme;
             this.title = props.title;
+            this.license = props.license;
             this.url = props.url;
             this.showProgressBar = props.showProgressBar;
             this.placeholder = placeholder;
@@ -66,6 +73,10 @@ var ShowerGenerator = yeoman.generators.Base.extend({
         this.template('_bower.json', 'bower.json');
         this.template('_package.json', 'package.json');
         this.template('presentation/_index.html', 'presentation/index.html');
+        console.log('license::', this.license);
+        if (this.license) {
+            this.template('presentation/_License.md', 'presentation/License.md');
+        }
     }
 
 

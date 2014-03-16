@@ -1,13 +1,13 @@
 {
   "name": "generator-shower",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "Yeoman generator",
   "license": "MIT",
   "main": "app/index.js",
   "repository": "kcherkashin/generator-shower",
   "author": {
-    "name": "",
-    "email": "",
+    "name": "Kirill Cherkashin",
+    "email": "kirill@kcherkashin.org",
     "url": "https://github.com/kcherkashin"
   },
   "engines": {
@@ -16,9 +16,6 @@
   "scripts": {
     "test": "mocha"
   },
-  "files": [
-    "app"
-  ],
   "keywords": [
     "yeoman-generator"
   ],
