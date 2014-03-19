@@ -29,30 +29,41 @@ $ npm install -g generator-shower
 ```
 
 ### Generating Shower presentation
+Navigate into a folder where you want your presentation
 
 ```
 $ yo shower
 ```
 
 ### Adding slides to your Shower presentation
+#### Generate empty slide
 ```
-# Generate empty slide
-$ yo shower:slide
+$ yo shower:slide "Slide title"
+```
 
-# Generate empty list slide
-$ yo shower:list
+#### Generate empty list slide
+```
+$ yo shower:list "Slide title"
+```
 
-# Generate empty table slide
-$ yo shower:table
+#### Generate empty table slide
+```
+$ yo shower:table "Slide title"
+```
 
-# Generate empty shout slide
-$ yo shower:shout
+#### Generate empty shout slide
+```
+$ yo shower:shout "Slide title"
+```
 
-# Generate empty quote slide
-$ yo shower:quote
+#### Generate empty quote slide
+```
+$ yo shower:quote "Slide title"
+```
 
-# Generate empty code slide
-$ yo shower:code
+#### Generate empty code slide
+```
+$ yo shower:code "Slide title"
 ```
 
 ## License

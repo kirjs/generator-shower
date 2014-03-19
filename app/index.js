@@ -30,7 +30,7 @@ var ShowerGenerator = yeoman.generators.Base.extend({
             var prompts = [
                 {
                     name: 'author',
-                    message: 'Your name',
+                    message: 'Your first and last name',
                     default: getAuthorName()
                 },
                 {
