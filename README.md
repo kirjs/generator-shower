@@ -35,7 +35,16 @@ Navigate into a folder where you want your presentation
 $ yo shower
 ```
 
+
 ### Adding slides to your Shower presentation
+
+After generating any slide yeoman will display the following prompt:
+```
+conflict index.html
+[?] Overwrite index.html? (Ynaxdh)
+```
+Just hit `Enter`
+
 #### Generate empty slide
 ```
 $ yo shower:slide "Slide title"
