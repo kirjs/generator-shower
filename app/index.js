@@ -47,7 +47,7 @@ var ShowerGenerator = yeoman.generators.Base.extend({
                     name: 'theme',
                     type: 'list',
                     choices: ['shower-ribbon', 'shower-bright', 'none'],
-                    message: 'Presentation theme'
+                    message: 'Presentation theme (you can see theme demos here: http://shwr.me/shower/themes/)'
                 },
                 {
                     type: 'confirm',
