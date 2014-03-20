@@ -1,4 +1,5 @@
 # generator-shower [![Build Status](https://secure.travis-ci.org/kcherkashin/generator-shower.png?branch=master)](https://travis-ci.org/kcherkashin/generator-shower)
+This is a yeoman generator for the [Shower presentation engine](http://shwr.me)
 
 > [Yeoman](http://yeoman.io) generator
 
@@ -35,6 +36,7 @@ Navigate into a folder where you want your presentation
 $ yo shower
 ```
 
+Answer the questions, then open `presentation/index.html` in your browser.
 
 ### Adding slides to your Shower presentation
 
