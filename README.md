@@ -5,7 +5,7 @@ This is a [Yeoman](http://yeoman.io) generator for the [Shower presentation engi
 
 ### Installing Yeoman?
 
-You'll need to have yeoman to use with the generator. It can be installed from npm:
+This generator required yeoman, it can be installed from npm:
 
 ```
 $ npm install -g yo
