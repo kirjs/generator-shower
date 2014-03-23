@@ -37,14 +37,6 @@ $ yo shower
 Answer the questions, then open `presentation/index.html` in your browser.
 
 ### Adding slides to your Shower presentation
-
-After generating any slide yeoman will display the following prompt:
-```
-conflict index.html
-[?] Overwrite index.html? (Ynaxdh)
-```
-Just hit `Enter`
-
 #### Generate empty slide
 ```
 $ yo shower:slide "Slide title"
