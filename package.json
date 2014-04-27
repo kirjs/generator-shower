@@ -17,7 +17,7 @@
     "test": "mocha"
   },
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator", "shower", "presentation", "slides"
   ],
   "dependencies": {
     "yeoman-generator": "~0.16.0",

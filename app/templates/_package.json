@@ -1,5 +1,8 @@
 {
     "version": "0.0.0",
     "name": "shower-<%= _.slugify(title) %>",
-    "author": "<%= author %>"
+    "author": "<%= author %>",
+    "dependencies": {
+      "gulp": "~3.6.2"
+    }
 }
