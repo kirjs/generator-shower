@@ -1,6 +1,6 @@
 {
   "name": "generator-shower",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Yeoman generator",
   "license": "MIT",
   "main": "app/index.js",
@@ -17,7 +17,10 @@
     "test": "mocha"
   },
   "keywords": [
-    "yeoman-generator", "shower", "presentation", "slides"
+    "yeoman-generator",
+    "shower",
+    "presentation",
+    "slides"
   ],
   "dependencies": {
     "yeoman-generator": "~0.16.0",
