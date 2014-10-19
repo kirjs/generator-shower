@@ -79,7 +79,9 @@ var ShowerGenerator = yeoman.generators.Base.extend({
             this.mkdir('presentation');
             this.copy('bowerrc', '.bowerrc');
             this.template('_bower.json', 'bower.json');
+            this.template('_gulpfile.js', 'gulpfile.js');
             this.template('_package.json', 'package.json');
+            this.template('_Readme.md', 'Readme.md');
             this.template('presentation/_index.html', 'presentation/index.html');
             console.log('license::', this.license);
             if (this.license) {
