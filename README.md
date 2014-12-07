@@ -1,4 +1,4 @@
-# generator-shower [![Build Status](https://secure.travis-ci.org/kcherkashin/generator-shower.png?branch=master)](https://travis-ci.org/kcherkashin/generator-shower)
+# generator-shower [![Build Status](https://secure.travis-ci.org/kirjs/generator-shower.png?branch=master)](https://travis-ci.org/kcherkashin/generator-shower)
 This is a [Yeoman](http://yeoman.io) generator for the [Shower presentation engine](http://shwr.me)
 
 ## Getting Started
